@@ -14,8 +14,8 @@ public class Classes {
         this.nivel = 1;
     }
 
-    int ataqueFisico() {
-        return forca;
+    double ataqueFisico() {
+        return (forca * 0.2) * weapon.damage;
     }
 
     void setForca(int forca) {

@@ -12,7 +12,6 @@ public class App {
 
             game.fightMonster(player, monster);
             System.out.println();
-
         }
     }
 }
